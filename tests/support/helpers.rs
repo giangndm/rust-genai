@@ -1,3 +1,5 @@
+use genai_custom as genai;
+
 use super::Result;
 use genai::chat::{ChatStream, ChatStreamEvent, StreamEnd};
 use tokio_stream::StreamExt;

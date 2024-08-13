@@ -1,7 +1,9 @@
+use genai_custom as genai;
+
 use genai::adapter::{AdapterConfig, AdapterKind};
+use genai::chat::printer::print_chat_stream;
 use genai::chat::{ChatMessage, ChatRequest};
 use genai::resolver::{AuthData, AuthResolver};
-use genai::chat::printer::print_chat_stream;
 use genai::Client;
 use genai::ConfigSet;
 

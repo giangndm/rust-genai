@@ -1,3 +1,5 @@
+use genai_custom as genai;
+
 use crate::get_option_value;
 use crate::support::{extract_stream_end, seed_chat_req_simple, Result};
 use genai::chat::{ChatMessage, ChatOptions, ChatRequest};
@@ -40,7 +42,7 @@ pub async fn common_test_chat_json_ok(model: &str, test_token: bool) -> Result<(
 		ChatMessage::system("Turn the user content into the most probable json content"),
 		ChatMessage::user(
 			r#"
-| Model          | Maker    
+| Model          | Maker
 | gpt-4o	       | OpenAI
 | gpt-4o-mini	   | OpenAI
 | llama-3.1-70B  | Meta

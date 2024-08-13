@@ -1,3 +1,5 @@
+use genai_custom as genai;
+
 use genai::chat::printer::print_chat_stream;
 use genai::chat::{ChatMessage, ChatOptions, ChatRequest};
 use genai::{Client, ClientConfig};

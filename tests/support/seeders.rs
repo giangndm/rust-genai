@@ -1,3 +1,5 @@
+use genai_custom as genai;
+
 use genai::chat::{ChatMessage, ChatRequest};
 
 pub fn seed_chat_req_simple() -> ChatRequest {
