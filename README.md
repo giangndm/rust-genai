@@ -1,4 +1,4 @@
-# genai - Multi-AI Providers Library for Rust (This is a fork from geni with some edits for my usecase).
+# genai - Multi-AI Providers Library for Rust (This is a fork from [geni](https://crates.io/crates/genai) with some edits for my usecase).
 
 Currently supports natively: **Ollama**, **OpenAI**, **Anthropic**, **groq**, **Gemini**,  **Cohere** (more to come)
 
